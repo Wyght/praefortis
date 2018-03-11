@@ -40,10 +40,10 @@ blockquote:before, blockquote:after,
 q:before, q:after {content: '';content: none;}
 table {border-collapse: collapse;border-spacing: 0;}
 /* micro clear fix -- used to fix collapsed elements -- */
-.grouping::before,.grouping::after{
+.clearfix::before,.clearfix::after{
     content: " ";
-    display: table;;
+    display: table;
 }
-.grouping::after{clear: both;}
+.clearfix::after{clear: both;}
 img, iframe, video, object{max-width: 100%;}
 strong, b{font-weight: bold;}

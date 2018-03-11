@@ -112,6 +112,55 @@ background: linear-gradient(
 	color: #FFF;
 }
 /*******************
+sub-menu
+*******************/
+.sub-menu > ul{
+	position: absolute;
+	top: 61px;
+	padding-left: 10px;
+	background-color:  #FFF;
+	border-bottom: 1px solid #00789E;
+	border-left: 	1px solid #00789E;
+	border-right:   1px solid #00789E;
+	width:  150px;
+	border-radius: 0 0 15px 15px;
+	/*overflow: hidden;
+	change overflow hidden to off screen
+	display: none;*/
+}
+.sub-menu:hover > ul{
+	display: block;
+}
+.sub-menu > a{
+	display: block;
+	padding: 20px 0;
+}
+/*******************
+sub-sub-menu
+*******************/
+.sub-sub-menu > ul{
+	position: absolute;
+	top: 0px;
+	left: 150px;
+	width: 150px;
+	padding-left: 10px;
+	background-color:  #FFF;
+	border-bottom: 1px solid #00789E;
+	border-left: 	1px solid #00789E;
+	border-right:   1px solid #00789E;
+	width:  150px;
+	border-radius: 0 0 15px 15px;
+}
+.sub-sub-menu:hover > ul{
+	display: block;
+}
+.sub-sub-menu > a{
+	display: block;
+	padding: 20px 0;
+}
+
+
+/*******************
 Columns X 4
 *******************/
 .column{
