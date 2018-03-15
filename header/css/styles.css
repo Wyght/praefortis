@@ -1,7 +1,8 @@
 
 header{
     position: fixed;
-    background-color: tan;
+    background-color: #01321F;
+    color: #0EFF00;
     left: 0;
     right: 0;
     z-index: 1;
@@ -10,37 +11,6 @@ footer{
     background-color: #01321F;
     color: #0EFF00;
     font-size: 1.75em;
-}
-.wrapper{
-    position: relative;
-}
-.main-txt{
-    width: 710px;
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
-    margin: 0 auto;
-}
-.left-side{
-    position: fixed;
-    top: 300px;
-    left: 150px;
-    width: 250px;
-    background-color: lightblue;
-    padding: 10px 20px;
-    border: 2px solid darkblue;
-    font-weight: bold;
-    text-shadow: 3px 3px 5px #FFF;
-}
-.right-side{
-    position: fixed;
-    top: 300px;
-    right: 150px;
-    width: 250px;
-    background-color: lightpink;
-    padding: 10px 20px;
-    border: 2px solid darkred;
-    font-weight: bold;
-    text-shadow: 3px 3px 5px #FFF;
 }
 header >h1{
     text-align: center;
@@ -78,6 +48,12 @@ footer li:hover{
     background-color: #0EFF00;
     color: #01321F;
 }
+
+header a:hover{
+    background-color: #0EFF00;
+    color: #01321F;
+    padding: 0 10px;
+}
 footer li:first-child{
     border-left: none;
     margin-left: 150px;
@@ -91,4 +67,53 @@ div > p:last-child{
 div p{
     width: inherit;
     padding: 0 25px;
+}
+.wrapper{
+    position: relative;
+}
+.main-txt{
+    width: 710px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 0 auto;
+}
+.left-side{
+    position: fixed;
+    top: 300px;
+    left: 150px;
+    width: 250px;
+    background-color: lightblue;
+    padding: 10px 20px;
+    border: 2px solid darkblue;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #FFF;
+}
+.right-side{
+    position: fixed;
+    top: 300px;
+    right: 150px;
+    width: 250px;
+    background-color: lightpink;
+    padding: 10px 20px;
+    border: 2px solid darkred;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #FFF;
+}
+.pg-header{
+    position: relative;
+}
+.header-logo{
+ border: 5px solid #FBEEC1;
+ height: 100PX;
+ width: 100px;
+ position: absolute;
+ top: 60px;
+ left: 35px;
+ background-color: #8D8741;
+}
+.header-logo:hover{
+    border-color: #0EFF00;
+    background-color: #01321F;
+    border-radius: 25px;
+    transition: all .5s linear;
 }
