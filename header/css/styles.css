@@ -1,0 +1,33 @@
+header{
+    background-color: tan;
+}
+header >h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+header >h2{
+    text-align: center;
+    font-size: 2.25em;
+}
+header >h3{
+    text-align: center;
+    font-size: 2em;
+}
+header >h4{
+    text-align: center;
+    font-size: 1.75em;
+}
+header >h5{
+    text-align: center;
+    font-size: 1.5em;
+}
+header >h6{
+    text-align: center;
+    font-size: 1.25em;
+}
+header > p{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+    padding-bottom: 10px;
+}

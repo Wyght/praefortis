@@ -1,0 +1,53 @@
+nav ul{
+    background-color: #CF5300;
+    color: #FAEBD7;
+    font-size: 48px;
+    transition: all .5s ease-in-out;
+}
+a{}
+li{
+    padding: 0px 15px;
+    width: 200px;
+    font-size: 48px;
+    border-left: 1px solid silver;
+}
+li:first-child{
+    border: none;
+}
+nav ul li a{
+    width: 100%;
+    display: inline-block;
+    padding: 5px 15px;
+}
+nav>ul>li{float: left;}
+nav ul li:hover > a{
+    background-color:
+    rgba(255, 255, 255, 0.35);
+}
+
+nav ul ul li{position: relative;}
+nav ul ul ul{
+    position: absolute;
+    top: 10px;
+    left: 100%
+}
+nav>ul ul{
+    position: absolute;
+    visibility: hidden;
+    /****************************
+        opacity used to enable
+        transition, which will not
+        work with visibility: hidden
+    *****************************/
+    opacity: 0;
+}
+nav ul li:hover > ul{
+    visibility: visible;
+/*SEE documentation above RE opacity*/
+    opacity: 1;
+}
+
+.lem{
+    background-color: silver;
+    height: 10px;
+}
