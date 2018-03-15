@@ -14,6 +14,13 @@ footer{
 .wrapper{
     position: relative;
 }
+.main-txt{
+    width: 710px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    background-color: pink;
+    margin: 0 auto;
+}
 .left-side{
     position: fixed;
     top: 300px;
@@ -83,6 +90,7 @@ div > p:last-child{
     padding-bottom: 100px;2
 }
 div p{
-    width: 640px;
-    margin: 0 auto;
+    width: inherit;
+    padding: 0 25px;
+    background-color: #FFF;
 }
