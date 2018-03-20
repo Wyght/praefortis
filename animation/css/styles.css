@@ -86,4 +86,4 @@ div{
     }
 }
 
-a::after{ content: " -->";}
+a::after{ content: "  -->";}
