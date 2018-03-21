@@ -50,10 +50,10 @@ h1{
     position: absolute;
 }
 .panels li:hover div.front{
-    animation: twirl 0.3s ease-in forwards;
+    animation: twirl 0.2s ease-in forwards;
 }
 .panels li:hover div.back{
-    animation: twirl 0.3s 0.3s ease-out forwards reverse;
+    animation: twirl 0.2s 0.2s ease-out forwards reverse;
 }
 
 @keyframes twirl {
