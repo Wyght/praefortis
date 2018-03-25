@@ -1,0 +1,42 @@
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.wrapper:after{
+    display: block;
+}
+.txt{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: antiquewhite;
+    padding: 20px;
+    font-family: Tangerine;
+    height: 230px;
+    width: 960px;
+}
+.service{
+    float: left;
+    background-color: white;
+    width: 29.33%;
+    margin: 1%;
+    padding: 1%;
+    height: 160px;
+}
+.service:first-child{margin-left: 4%;}
+.service h1, .service h4{
+    text-align: center;
+    margin: 10px 0;
+}
+.service h1{font-size: 3.5em;}
+.service h4{font-size: 1.75em;}
+img{
+    float: left;
+    margin: 10px;
+    width: 250px;
+}
+.green{ background-color: green; }
+.blue{ background-color: blue; }
+.red{ background-color: red; }
+.box{ height: 100px; width: 100px; float: right;}
