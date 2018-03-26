@@ -6,6 +6,7 @@ body{background-color: #fa625f;}
     margin: 20px auto;
     padding: 20px;
     padding-top: 5px;
+    border: 3px solid #600473;
     box-sizing: border-box;
 }
 .column{
@@ -23,6 +24,7 @@ body{background-color: #fa625f;}
 }
 .txt{
     padding-top: 15px;
+    text-align: left;
 }
 .txt:first-child{
     padding-top: none;
