@@ -1,0 +1,155 @@
+
+/*******************
+    Elements || tags
+*******************/
+body{
+    background-color: antiquewhite;
+}
+/*******************
+    Class
+*******************/
+
+/*-- set as 'FLEX' --*/
+/* Remember when flex is used empty containers IE div are visible & have size */
+.flex-one{
+    display: flex;
+    /*background-color: #fff;*//*--to show the flex-container not covered--*/
+    flex-wrap: wrap;
+/*change flex-flow to see change on page*/
+    flex-flow: column;
+/*change justify-content to see change on page*/
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    border: 2px solid #000;
+    margin: 5px;
+}
+.flex-two{
+    display: flex;
+    flex-wrap: wrap;
+/*change flex-flow to see change on page*/
+    flex-flow: column-reverse;
+/*change justify-content to see change on page*/
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    border: 2px solid #000;
+    margin: 5px;
+}
+.flex-three{
+    display: flex;
+    flex-wrap: wrap;
+/*change flex-flow to see change on page*/
+    flex-flow: column;
+/*change justify-content to see change on page*/
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 80px;
+    border: 2px solid #000;
+    margin: 5px;
+}
+.flex-four{
+    display: flex;
+    flex-wrap: wrap;
+/*change flex-flow to see change on page*/
+    flex-flow:column;
+/*change justify-content to see change on page*/
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    border: 2px solid #000;
+    margin: 5px;
+}
+.flex-five{
+    display: flex;
+    flex-wrap: wrap;
+/*change flex-flow to see change on page*/
+    flex-flow:column;
+/*change justify-content to see change on page*/
+    justify-content: center;
+    align-items: stretch;
+    height: 100px;
+    border: 2px solid #000;
+    margin: 5px;
+}
+.flex-six{
+    display: flex;
+    flex-wrap: wrap;
+/*change flex-flow to see change on page*/
+    flex-flow:column-reverse;
+/*change justify-content to see change on page*/
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    border: 2px solid #000;
+    margin: 5px;
+}
+.flex-seven{
+    display: flex;
+    flex-wrap: wrap;
+/*change flex-flow to see change on page*/
+    flex-flow:column;
+/*change justify-content to see change on page*/
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 100px;
+    border: 2px solid #000;
+    margin: 5px;
+}
+.flex-eight{
+    display: flex;
+    flex-wrap: wrap;
+/*change flex-flow to see change on page*/
+    flex-flow:column-reverse;
+/*change justify-content to see change on page*/
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border: 2px solid #000;
+    margin: 5px;
+}
+.box{
+    height: 20px;
+    min-width: 20px;
+}
+.flex-four .box{
+    width: 200px;
+    height: 20px;
+    min-width: 20px;
+}
+.flex-five .box{
+    width: 200px;
+    height: 20px;
+    min-width: 20px;
+}
+.flex-six .box{
+    width: 200px;
+    height: 20px;
+    min-width: 20px;
+}
+.flex-seven .box{
+    width: 200px;
+    height: 20px;
+    min-width: 20px;
+}
+.flex-eight .box{
+    width: 200px;
+    height: 20px;
+    min-width: 20px;
+}
+.one{
+    background-color: #005995;
+}
+.two{
+    background-color: #fa625f;
+}
+.three{
+    background-color: #600473;
+}
+/*******************
+    IDs
+*******************/
+
+/*******************
+    parent child
+*******************/

@@ -1,0 +1,117 @@
+
+/*******************
+    Elements || tags
+*******************/
+body{
+    background-color: antiquewhite;
+}
+/*******************
+    Class
+*******************/
+
+/*-- set as 'FLEX' --*/
+/* Remember when flex is used empty containers IE div are visible & have size */
+.flex-one{
+    display: flex;
+    /*background-color: #fff;*//*--to show the flex-container not covered--*/
+    flex-wrap: wrap;
+/*change flex-flow to see change on page*/
+    flex-flow: column;
+/*change justify-content to see change on page*/
+    justify-content: center;
+    height: 200px;
+    border: 2px solid #000;
+    margin: 5px;
+}
+.flex-two{
+    display: flex;
+    flex-wrap: wrap;
+/*change flex-flow to see change on page*/
+    flex-flow: column-reverse;
+/*change justify-content to see change on page*/
+    justify-content: flex-end;
+    height: 200px;
+    border: 2px solid #000;
+    margin: 5px;
+}
+.flex-three{
+    display: flex;
+    flex-wrap: wrap;
+/*change flex-flow to see change on page*/
+    flex-flow: column;
+/*change justify-content to see change on page*/
+    justify-content: flex-end;
+    height: 200px;
+    border: 2px solid #000;
+    margin: 5px;
+}
+.flex-four{
+    display: flex;
+    flex-wrap: wrap;
+/*change flex-flow to see change on page*/
+    flex-flow:row;
+/*change justify-content to see change on page*/
+    justify-content: flex-end;
+    border: 2px solid #000;
+    margin: 5px;
+}
+.flex-five{
+    display: flex;
+    flex-wrap: wrap;
+/*change flex-flow to see change on page*/
+    flex-flow:row;
+/*change justify-content to see change on page*/
+    justify-content: center;
+    border: 2px solid #000;
+    margin: 5px;
+}
+.flex-six{
+    display: flex;
+    flex-wrap: wrap;
+/*change flex-flow to see change on page*/
+    flex-flow:row-reverse;
+/*change justify-content to see change on page*/
+    justify-content: flex-end;
+    border: 2px solid #000;
+    margin: 5px;
+}
+.flex-seven{
+    display: flex;
+    flex-wrap: wrap;
+/*change flex-flow to see change on page*/
+    flex-flow:row;
+/*change justify-content to see change on page*/
+    justify-content: space-around;
+    border: 2px solid #000;
+    margin: 5px;
+}
+.flex-eight{
+    display: flex;
+    flex-wrap: wrap;
+/*change flex-flow to see change on page*/
+    flex-flow:row-reverse;
+/*change justify-content to see change on page*/
+    justify-content: space-between;
+    border: 2px solid #000;
+    margin: 5px;
+}
+.box{
+    height: 40px;
+    min-width: 40px;
+}
+.one{
+    background-color: #005995;
+}
+.two{
+    background-color: #fa625f;
+}
+.three{
+    background-color: #600473;
+}
+/*******************
+    IDs
+*******************/
+
+/*******************
+    parent child
+*******************/
