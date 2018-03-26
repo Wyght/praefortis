@@ -17,10 +17,13 @@ body{
 /* Remember when flex is used empty containers IE div are visible & have size */
 .flex-container{
     display: flex;
+    background-color: white;
+    flex-wrap: wrap;
 }
 .box{
-    height: 150px;
-    min-width: 100px;
+    height: 200px;
+    min-width: 400px;
+    flex-grow: 1;/* All elements with this class will grow equally*/
 }
 .one{
     background-color: #005995;

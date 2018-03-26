@@ -17,19 +17,25 @@ body{
 /* Remember when flex is used empty containers IE div are visible & have size */
 .flex-container{
     display: flex;
+    height: 250px;
+    background-color: white;
 }
 .box{
-    height: 150px;
+    min-height: 100px;
     min-width: 100px;
 }
 .one{
     background-color: #005995;
+/* flex-grow in comparision to width of container that is 'flex'*/
+    flex-grow: 1;
 }
 .two{
     background-color: #fa625f;
+    flex-grow: 2;
 }
 .three{
     background-color: #600473;
+    flex-grow: .5;
 }
 /*******************
     IDs

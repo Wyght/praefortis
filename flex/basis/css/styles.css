@@ -1,0 +1,75 @@
+
+/*******************
+    Elements || tags
+*******************/
+body{
+    background-color: antiquewhite;
+}
+/*******************
+    Class
+*******************/
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.spacer{
+    background-color: #00303F;
+    line-height: 1.5em;
+    color: antiquewhite;
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+/*-- set as 'FLEX' --*/
+/* Remember when flex is used empty containers IE div are visible & have size */
+.flex-one{
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap-reverse;
+}
+.flex-two{
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.flex-one .box{
+    height: 100px;
+    flex-basis: 300px;/*rather than min-width so 'no' min-width*/
+    flex-grow: 1;/* All elements with this class will grow equally*/
+}
+.flex-two .box{
+    height: 100px;
+    /*
+    =======================
+    =====| FLEX SHORTHAND |====
+    =======================
+    */
+    flex: 1 0 200px;/*grow shrink basis*/
+}
+.flex-one .one{
+    background-color: #CAE4DB;
+}
+.flex-one .two{
+    background-color: #DCAE1D;
+}
+.flex-one .three{
+    background-color: #7A9D96;
+}
+.flex-two .one{
+    background-color: #005995;
+}
+.flex-two .two{
+    background-color: #fa625f;
+}
+.flex-two .three{
+    background-color: #600473;
+}
+/*******************
+    IDs
+*******************/
+
+/*******************
+    parent child
+*******************/
