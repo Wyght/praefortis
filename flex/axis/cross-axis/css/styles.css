@@ -100,9 +100,9 @@ body{
     display: flex;
     flex-wrap: wrap;
 /*change flex-flow to see change on page*/
-    flex-flow:column-reverse;
+    flex-flow:row-reverse;
 /*change justify-content to see change on page*/
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100px;
     border: 2px solid #000;

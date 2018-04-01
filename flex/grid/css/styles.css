@@ -1,0 +1,105 @@
+/*******************
+    Elements || tags
+*******************/
+body{
+    background-color: rgb(250, 235,215);
+}
+section{
+    background-color: rgba(255,255,255,.5);
+    border: 10px solid #FFF;
+}
+article{
+    background-color: #FFF;
+    padding: 10px;
+    margin: 35px 0;
+}
+nav{
+    background-color: #2e3830;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:  0;
+}
+article h2{
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-align: center;
+}
+p{text-indent: 2em;}
+p::first-letter{font-size: 1.35em; font-weight: 500; letter-spacing: 0.15em;}
+nav a{
+    display: block;
+    color: #e6dbc9;
+    padding: 5px;
+    text-align: center;
+    transition: all .25s ease-in-out;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+nav a:hover{
+    background-color: #c53211;
+    color: #FFF;
+    letter-spacing: .25em;
+    text-transform: uppercase;
+}
+/*******************
+    Class
+*******************/
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+/*---coder styles---*/
+.coder a{
+    display: block;
+    margin: 0 auto;
+    transition: all .25s ease-in-out;
+}
+
+.ffx{
+    background: url("../img/firefox.png") no-repeat center;
+}
+.lix{
+    background: url("../img/Linux.png") no-repeat center;
+}
+.njs{
+    background: url("../img/nodejs.png") no-repeat center;
+}
+.php{
+    background: url("../img/php.png") no-repeat center;
+}
+.coder a{
+    min-width: 80px;
+}
+.coder a{
+    text-indent: -10000px;
+}
+
+/*******************
+    Flex Styles
+*******************/
+@media screen and (min-width: 768px){
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+.coder{
+    background-color: rgb(200,51,21, .4);
+}
+.coder a:hover{
+    background-color: rgba(250, 235,215, 0.6);
+}
+
+.wrapper a:hover{
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+
+
+}/* END Flex Styles */
