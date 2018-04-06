@@ -1,4 +1,28 @@
-.my-header{
-    grid-column-gap: ;
-    grid-row-gap:
+body{
+    background-color: antiquewhite;
+    font-size: 1.5em;
+    margin: 40px;
+}
+.box{
+    border: 1px solid #B40A77;
+    border-radius: 5px;
+    background-color: #7A394F;
+    color: #FFF;
+}
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
+.header { grid-area: header; }
+.footer { grid-area: footer; }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-template-rows: auto;
+    grid-row-gap: 10px;
+    grid-template-areas:
+            "header header header header header"
+            "sidebar content content content content"
+            "footer footer footer footer footer";
+    text-align: center;
 }
