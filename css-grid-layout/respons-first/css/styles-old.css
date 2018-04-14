@@ -55,6 +55,12 @@ body{
     padding: 1% 0 0 0;
     letter-spacing: .25em;
     height: 2.5em;
+    background-color: rgba(128,128,0,0.10);
+    border: 5px solid rgba(0,0,0,0.10);
+    font-size: 1.15em;
+    text-align: center;
+    margin-left: 3%;
+    border-radius: 0 0 95% 95%;
 }
 
 .sidebar{
@@ -84,12 +90,6 @@ body{
     text-align: center;
 }
 .content h3{
-    background-color: rgba(128,128,0,0.10);
-    border: 5px solid rgba(0,0,0,0.10);
-    font-size: 1.15em;
-    text-align: center;
-    margin-left: 3%;
-    border-radius: 0 0 95% 95%;
 }
 h1,h3,div,p{
     padding: 0;
