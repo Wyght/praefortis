@@ -2,32 +2,49 @@
     /* Set the background color of body to tan */
 body {
   background-color: tan;
+  font-size: 1.5em;
+  color: #000;
 }
 
+/*==============================
+-----|
+        @media queries
+-----|
+==============================*/
 @media screen and (max-width: 1199px){
     body{
         background-color: maroon;
+        font-size: 8.5em;
+        color: #FFF;
         }
     }
 /* On screens that are 992px or less, set the background color to lightgreen */
 @media screen and (max-width: 992px) {
   body {
     background-color: lightgreen;
+    font-size: 7.5em;
+    color: #000;
   }
 }
 @media screen and (max-width: 799px){
     body{
         background-color: forestgreen;
+        font-size: 4em;
+        color: #FFF;
         }
     }
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   body {
     background-color: olive;
+    font-size: 2.75em;
+    color: #FFF;
   }
 }
 @media screen and (max-width: 399px){
     body{
         background-color: turquoise;
+        font-size: 2.5em;
+        color: #000;
         }
     }
