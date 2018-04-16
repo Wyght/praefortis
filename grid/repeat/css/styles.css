@@ -1,0 +1,16 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+body{background-color: forestgreen;}
+.grid{
+    display: grid;
+    grid-template-columns: 500px repeat(3, 1fr 2fr 3fr) 500px;
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+    margin: 10px 10px 0 10px;
+}
+.grid div{
+    border: 1px solid rgb(0,95,197);
+    border-radius: 4px;
+    background-color: rgba(255,255,255,0.5);
+    border: 2px solid rgba(0, 51, 25, 0.75);
+}
+.grid div::after{content: " ";}
