@@ -1,0 +1,59 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+body{
+    background-color: antiquewhite;
+    font-weight: 300;
+}
+
+.container{
+    text-align: left;
+    padding: 25px;
+    width: 50vw;
+    margin: 0 auto;
+}
+.moreTxt{text-align: center;}
+.title{
+    text-align: center;
+    letter-spacing: .05em;
+    font-size: 3.5em;
+}
+.title > span{
+    display: block;
+    font-size: 0.7em;
+}
+.my-flex{
+    display: flex;
+    justify-content: space-between;
+    /*================================
+    -----|
+            WHY??? not start on line one?????
+    -----|
+    ================================*/
+    grid-row-start: hero-start;
+}
+.secOne{
+        background: linear-gradient(to right, #b4ddb4 0%, #83c783 13%, #52b152 24%, #008a00 74%, #005700 83%, #002400 100%);
+        color: #FFF;
+        grid-column: pg-start/pg-end;
+        grid-row: hero-start/hero-end;
+}
+.secTwo{
+    display: flex;
+    justify-content: space-around;
+    grid-column: content-start/content-end;
+    grid-row: info-start/info-end;
+    background-color: lightyellow;
+    border-radius: 45px;
+}
+.secThree{
+    grid-column: pg-start/pg-end;
+    grid-row: hero-end/da-bottom;
+    text-align: center;
+    padding-top: 100px;
+}
+.smallTitle{text-align: center;}
+.grid{
+    display: grid;
+            /* below I'm naming the lines in the square brackets     */
+    grid-template-columns: [pg-start] 1fr [content-start] 80vw [content-end] 1fr [pg-end];
+    grid-template-rows:  [hero-start] 50vh  [info-start] 5em  [hero-end] 5em  [info-end] auto [da-bottom] ;
+}
