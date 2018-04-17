@@ -23,12 +23,7 @@ body{
 .my-flex{
     display: flex;
     justify-content: space-between;
-    /*================================
-    -----|
-            WHY??? not start on line one?????
-    -----|
-    ================================*/
-    grid-row-start: hero-start;
+    background-color: inherit;
 }
 .secOne{
         background: linear-gradient(to right, #b4ddb4 0%, #83c783 13%, #52b152 24%, #008a00 74%, #005700 83%, #002400 100%);
@@ -50,10 +45,18 @@ body{
     text-align: center;
     padding-top: 100px;
 }
+.secFour{
+    grid-row: 1/-1;
+    grid-column: pg-start/pg-end;
+
+        z-index: 10;
+}
 .smallTitle{text-align: center;}
 .grid{
     display: grid;
             /* below I'm naming the lines in the square brackets     */
     grid-template-columns: [pg-start] 1fr [content-start] 80vw [content-end] 1fr [pg-end];
     grid-template-rows:  [hero-start] 50vh  [info-start] 5em  [hero-end] 5em  [info-end] auto [da-bottom] ;
+}
+.img1{
 }
