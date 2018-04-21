@@ -1,0 +1,50 @@
+
+/* https://gridbyexample.com/video/series-auto-placement-span/ */
+
+*{box-sizing: border-box;}
+body{
+    background-color: antiquewhite:
+}
+.box{
+    background-color: forestgreen;
+    color: #FFF;
+    font-size: 1.25em;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px;
+}
+.box::after{content: " ";}
+.grid{
+    display: grid;
+    /* grid-template-columns: repeat(3,1fr); */
+    /* grid-template-columns: repeat(auto-fill, 450px); */
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-auto-rows: minmax(80px, auto);
+    grid-auto-flow: dense;
+    grid-gap: 1px;
+    margin: 20px;
+    }
+    .wide{
+        grid-column-end: -1;
+        grid-column-start: 1;
+        background-color: violet;
+    }
+    .tall{
+        grid-row-end: span 4;
+        background-color: navy;
+    }
+    .double{
+        grid-column-end: span 2;
+        grid-row-end: span 2;
+        background-color: maroon;
+    }
+    .triple{
+        grid-column-end: span 3;
+        grid-row-end: span 3;
+        background-color: gold;
+    }
+    .fat{
+        grid-column-end: span 6;
+        grid-row-end: span 4;
+        background-color: aqua;
+    }
